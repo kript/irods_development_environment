@@ -1,4 +1,4 @@
-ARG debugger_base=ubuntu:16.04
+ARG debugger_base=ubuntu:xenial-20210416
 FROM ${debugger_base}
 
 SHELL [ "/bin/bash", "-c" ]
