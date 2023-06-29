@@ -1,7 +1,7 @@
 #
 # iRODS Runner
 #
-ARG runner_base=ubuntu:16.04
+ARG runner_base=ubuntu:xenial-20210416
 FROM ${runner_base} as irods-runner
 
 SHELL [ "/bin/bash", "-c" ]
